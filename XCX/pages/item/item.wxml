@@ -1,0 +1,5 @@
+<!--pages/item/item.wxml-->
+<wxs src="../common.wxs" module="common" />
+<view class="container">
+		<navigator hover-class="none" class="listItem" wx:for="{{common.showItem(list)}}" wx:key="{{index}}" url="{{item.url}}">{{item.name}}</navigator>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/kefu/kefu.wxml-->
+<text>pages/kefu/kefu.wxml</text>
+<contact-button 
+  type="default-light" 
+  size="20"
+  session-from="weapp"
+	style="background:green"
+>
+</contact-button>

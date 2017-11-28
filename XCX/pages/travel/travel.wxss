@@ -1,0 +1,35 @@
+@import "../common/travel-list.wxss";
+/* travel.wxss */
+page{
+  width: 100%;
+  height:100%;
+}
+.travel_container{
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+}
+.nav_tab{
+  width: 100%;
+  height: 100rpx;
+}
+.nav_tab_item{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.active_nav{
+  background: #4B0082;
+  color: #fff;
+}
+.content{
+  width:100%;
+  height: 100%;
+  float: left;
+  background: #fafafa;
+}
+.list_scroll{
+  height:100%;
+}

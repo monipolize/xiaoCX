@@ -1,0 +1,13 @@
+<!--travel.wxml-->
+<view class="travel_container">
+  <view class="nav_tab">
+    <view class="nav_tab_item nav_tab1 {{active_nav == 1?'active_nav':''}}" bindtap="changeNav" data-id="1">足迹按摩</view>
+    <view class="nav_tab_item nav_tab2 {{active_nav == 2?'active_nav':''}}" bindtap="changeNav" data-id="2">攻略</view>         
+  </view>
+  <view class="content zuji">
+    <scroll-view class="list_scroll" scroll-y lower-threshold="30" bindscrolltolower="lowed">
+       <include src="../common/travel-list.wxml"/> 
+     <!-- <template is="listTpl" data="{{...lists}}"/>  -->
+		 </scroll-view>
+  </view>
+</view>

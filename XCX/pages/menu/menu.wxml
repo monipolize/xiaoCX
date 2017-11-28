@@ -1,0 +1,21 @@
+<!--menu.wxml-->
+<view class="menu_container">
+  <view class="menu_content">
+    <view class="menu_lists">
+       <navigator url="/pages/travel/travel" hover-class="none" class="bus"></navigator>
+        <text class="intro intro1" bindtap="goToTravel">旅行BUS</text>
+    </view>
+    <view class="menu_lists">
+       <text class="intro intro2">技能UP</text>
+      <navigator url="/page/navigate/navigate?title=navigate" hover-class="none" class="skill"></navigator>
+    </view>
+    <view class="menu_lists">
+       <navigator url="/page/navigate/navigate?title=navigate" hover-class="none" class="chiken"></navigator>
+       <text class="intro intro3">毒鸡汤锅</text>
+    </view>
+    <view class="menu_lists">
+       <text class="intro intro4">壮行酒窖</text>
+       <navigator url="/page/navigate/navigate?title=navigate" hover-class="none" class="wire"></navigator>
+    </view>
+  </view>
+</view>

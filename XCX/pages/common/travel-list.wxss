@@ -1,0 +1,39 @@
+/* pages/common/travel-list.wxss */
+.content_lists{
+  width:650rpx;
+  height: 420rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  padding: 20rpx 20rpx;
+  border: 1px solid #F0F0F0;
+  border-radius: 5px;
+  background: #5D478B;
+
+}
+.city_name{
+  display: inline-block;
+  width: 508rpx;
+  font-size:40rpx;
+  color:#fff;
+  margin: 16rpx 20rpx 16rpx 0rpx;
+}
+.heart{
+  display: inline-block;
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+  background: #fff;
+  vertical-align: text-bottom
+}
+.zan{
+  display: inline-block;
+  width: 70rpx;
+  text-align: center;
+  color: #FF69B4;
+  font-size:28rpx;
+  vertical-align: text-bottom
+}
+.myword{
+  font-size:28rpx;
+  color:#fff;
+}

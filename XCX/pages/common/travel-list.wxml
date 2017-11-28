@@ -1,0 +1,15 @@
+  <!-- <template name="listTpl">
+    <view class="content_lists" wx:for="{{lists}}">
+      {{index}}:{{item.name}}
+    </view> 
+</template>   -->
+ <view class="content_lists"  wx:for="{{lists}}" wx:key="{{index}}" wx:if="{{index<5}}" >
+      <image src="{{item.src}}" style="width: 326px; height: 140px;" mode="aspectFill"></image>
+      <view class="city_name">{{item.name}}</view>
+      <view class="heart"></view>
+      <view class="zan">{{item.zan}}</view>
+      <view class="myword">{{item.myword}}</view>
+</view> 
+ <view class="content_lists" >
+		<text>{{cityName}}</text>
+ </view> 

@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/menu/menu",
+    "pages/travel/travel",
+		"pages/item/item",
+		"pages/view/view",
+		"pages/base/base",
+		"pages/media/media",
+		"pages/map/map",
+		"pages/canvas/canvas",
+		"pages/openId/openId",
+		"pages/kefu/kefu"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "myDemo",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  }
+}

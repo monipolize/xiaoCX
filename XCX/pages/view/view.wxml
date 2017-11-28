@@ -1,0 +1,13 @@
+<view class="mySwiper">
+	<swiper indicator-dots="true">
+		<swiper-item class="swiper1">1111</swiper-item>
+		<swiper-item class="swiper2">222</swiper-item>
+		<swiper-item class="swiper3">333</swiper-item>
+		<swiper-item class="swiper4">444</swiper-item>
+	</swiper>
+</view>
+<view class="movable">
+	<movable-area direction="all" inertia="true" out-of-bounds="false" x='0' y="0">
+		<movable-view>aaaaa</movable-view>
+	</movable-area>
+</view>
